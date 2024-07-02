@@ -1,0 +1,24 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_city_info
+    examples: |
+      - Tell me about [New York](city)
+      - What is the population of [London](city)?
+      - Give me information about [Paris](city)
+      - I want to know about [Tokyo](city)
+      - Can you tell me something about [Berlin](city)?
+      - What are the famous places in [Delhi](city)?
+      - Tell me the popular places in [Mumbai](city).
+      - What can I see in [Jaipur](city)?
+      - What are the must-visit places in [Kolkata](city)?
+      - Suggest some attractions in [Bangalore](city).
+      - Where should I go in [Chennai](city)?
+      - Any famous places in [Hyderabad](city)?
+      - What are the sightseeing spots in [Pune](city)?
+      - Can you tell me about [Ahmedabad](city)?
+
+  - intent: hello
+    examples: |
+      - hi
+      - hey

@@ -1,0 +1,22 @@
+version: "3.1"
+
+intents:
+  - ask_city_info
+  - hello
+
+entities:
+  - city
+
+slots:
+  city:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: city
+
+responses: 
+  utter_greet:
+    - text: "hey how are you"
+actions:
+- action_get_city_info

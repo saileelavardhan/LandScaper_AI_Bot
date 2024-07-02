@@ -1,0 +1,13 @@
+version: "3.1"
+
+stories:
+
+- story: provide city information
+  steps:
+    - intent: ask_city_info
+    - action: action_get_city_info
+
+- story: greet
+  steps:
+    - intent: hello
+    - action: utter_greet
